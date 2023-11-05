@@ -222,7 +222,6 @@ class ArNumberMappings implements NumberMappings {
   String get segmentSpacer => ' $andText ';
 }
 
-// TODO(masreplay): https://www.mathsdesign.com/mathematics/numbers-in-different-languages/kurdish-numbers/
 class KuNumberMappings implements NumberMappings {
   @override
   Map<int, String> get numbers {

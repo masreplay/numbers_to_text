@@ -1,6 +1,5 @@
-import 'package:number_to_text/src/splitter.dart';
-
 import 'mappings.dart';
+import 'splitter.dart';
 
 // 1810
 class NumberSegment {
@@ -21,15 +20,15 @@ class NumberSegment {
       'NumberSegment(segmentNumber: $segmentNumber, number: $number, magnitude: $magnitude)';
 }
 
-class NumberToTextConverter {
+class NumbersToTextConverter {
   final String language;
   final NumberMappings mapper;
   late final NumberSplitter splitter;
 
-  NumberToTextConverter.en() : this("en");
-  NumberToTextConverter.ar() : this("ar");
-  
-  NumberToTextConverter(this.language)
+  NumbersToTextConverter.en() : this("en");
+  NumbersToTextConverter.ar() : this("ar");
+
+  NumbersToTextConverter(this.language)
       : mapper = NumberMappings.getType(language) {
     splitter = NumberSplitter(mapper);
   }

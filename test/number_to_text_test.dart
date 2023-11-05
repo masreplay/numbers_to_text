@@ -1,9 +1,9 @@
-import 'package:number_to_text/src/convertor.dart';
+import 'package:numbers_to_text/src/convertor.dart';
 import 'package:test/test.dart';
 
 void main() {
   group('Arabic number to text converter test', () {
-    final converter = NumberToTextConverter("ar");
+    final converter = NumbersToTextConverter("ar");
 
     setUp(() {});
 
