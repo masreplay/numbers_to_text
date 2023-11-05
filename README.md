@@ -14,23 +14,23 @@ This Flutter package is designed to help you convert numbers into their textual 
 
 ## Usage
 
-1. Add the `number_to_text_converter` package to your `pubspec.yaml` file:
+1. Add the `numbers_to_text` package to your `pubspec.yaml` file:
 
    ```yaml
    dependencies:
-     number_to_text_converter: ^1.0.0
+     numbers_to_text: ^1.0.0
    ```
 
 2. Import the package in your Dart code:
 
    ```dart
-   import 'package:number_to_text_converter/number_to_text_converter.dart';
+   import 'package:numbers_to_text/numbers_to_text.dart';
    ```
 
-3. Create an instance of the `NumberToTextConverter` class by specifying the language (either "en" for English or "ar" for Arabic):
+3. Create an instance of the `NumbersToTextConverter` class by specifying the language (either "en" for English or "ar" for Arabic):
 
    ```dart
-   final converter = NumberToTextConverter("en");
+   final converter = NumbersToTextConverter("en");
    ```
 
 4. Use the `fromInt` method to convert an integer to its textual representation:
@@ -42,20 +42,20 @@ This Flutter package is designed to help you convert numbers into their textual 
 
 ## Example
 
-Here's a complete example of how to use the `NumberToTextConverter` in a Flutter application:
+Here's a complete example of how to use the `NumbersToTextConverter` in a Flutter application:
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:number_to_text_converter/number_to_text_converter.dart';
+import 'package:numbers_to_text/numbers_to_text.dart';
 
 void main() {
-  final converter = NumberToTextConverter("en");
+  final converter = NumbersToTextConverter("en");
 
   runApp(MyApp(converter));
 }
 
 class MyApp extends StatelessWidget {
-  final NumberToTextConverter converter;
+  final NumbersToTextConverter converter;
 
   MyApp(this.converter);
 

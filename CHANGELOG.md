@@ -1,3 +1,6 @@
+## 0.1.3
+- update docs
+  
 ## 0.1.2
 - update pub packages version
   
