@@ -1,7 +1,7 @@
 name: numbers_to_text
 description: convert numbers into their textual representation in both Arabic and English.
-version: 0.1.0
-repository: https://github.com/masreplay/number_to_text
+version: 0.1.1
+repository: https://github.com/masreplay/numbers_to_text
 
 environment:
   sdk: '>=2.19.1 <4.0.0'
