@@ -85,7 +85,7 @@ class MyApp extends StatelessWidget {
 
 ## Contributions
 
-Contributions and suggestions for improvements are welcome. If you encounter any issues or have ideas for additional features, please feel free to create a pull request or submit an issue on the [GitHub repository](https://github.com/number_to_text).
+Contributions and suggestions for improvements are welcome. If you encounter any issues or have ideas for additional features, please feel free to create a pull request or submit an issue on the [GitHub repository](https://github.com/masreplay/numbers_to_text).
 
 ## License
 
